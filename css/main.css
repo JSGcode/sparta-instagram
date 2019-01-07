@@ -14,14 +14,14 @@ html{
     justify-content: center;
     align-content: center;
 }
-.container{
+.container0{
     height: 780px;
     width: 900px;
     margin: 15px;
     display: flex;
     flex-wrap: inherit;
 }
-.flexbox{
+.container1{
 	height: 750px;
 	width: 900px;
 	display: flex;
@@ -47,10 +47,11 @@ html{
 /*For manipulating the other items such as fonts and button*/
 /*---------------------------------------------------------*/
 
-.one{
+.boxone{
     align-items: center;
+    margin-top: 10px;
 }
-.two{
+.boxtwo{
     text-align: center;
 }
 button{
@@ -116,4 +117,7 @@ a:visited{
 }
 s{
     font-size: 11px;
+}
+.boldterms{
+    font-weight: bold;
 }
